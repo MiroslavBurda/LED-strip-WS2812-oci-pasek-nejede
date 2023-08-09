@@ -9,7 +9,7 @@ const int CHANNEL = 0;
 int stav = 0;
 
 // SmartLed -> RMT driver (WS2812/WS2812B/SK6812/WS2813)
-SmartLed leds(LED_WS2812, LED_COUNT, DATA_PIN, CHANNEL, DoubleBuffer);
+SmartLed leds(LED_WS2812B, LED_COUNT, DATA_PIN, CHANNEL, DoubleBuffer);
 
 
 void SetLedEyes(uint8_t R, uint8_t G, uint8_t B) // dva protilehé rohy (oči) nahoře + dvě LED cca uprostřed dole 
